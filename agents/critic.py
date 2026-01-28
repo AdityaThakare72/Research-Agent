@@ -28,7 +28,7 @@ def critic_node(state: AgentState) -> dict:
     
     # Initialize Gemini LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-2.0-flash",
         temperature=0.2  # Lower temperature for analytical tasks
     )
     

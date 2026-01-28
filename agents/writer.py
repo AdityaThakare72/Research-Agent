@@ -27,7 +27,7 @@ def writer_node(state: AgentState) -> dict:
     
     # Initialize Gemini LLM
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-2.0-flash",
         temperature=0.7  # Higher creativity for writing
     )
     
