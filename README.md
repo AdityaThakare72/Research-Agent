@@ -120,7 +120,7 @@ docker run -p 8501:8501 \
 | Component | Technology |
 |-----------|------------|
 | Orchestration | LangGraph (StateGraph) |
-| LLM | Google Gemini (gemini-1.5-flash) |
+| LLM | Google Gemini (gemini-2.5-flash) |
 | Search | Tavily Search API |
 | UI | Streamlit |
 | LLM Framework | LangChain |
