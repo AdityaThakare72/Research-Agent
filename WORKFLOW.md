@@ -1,6 +1,6 @@
 # 🔄 LangGraph Workflow Documentation
 
-This document explains exactly how the LangGraph nodes and edges interact in the Agentic Research System. Perfect for technical interviews or understanding the architecture.
+This document explains exactly how the LangGraph nodes and edges interact in the Agentic Research System.
 
 ## Table of Contents
 1. [Core Concepts](#core-concepts)
