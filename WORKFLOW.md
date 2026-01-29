@@ -1,5 +1,10 @@
 # 🔄 LangGraph Workflow Documentation
 
+deployment is on port 8503
+
+
+
+
 This document explains exactly how the LangGraph nodes and edges interact in the Agentic Research System.
 
 ## Table of Contents
