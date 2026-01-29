@@ -73,7 +73,7 @@ st.divider()
 
 # Check for API keys
 if not os.getenv("GOOGLE_API_KEY") or not os.getenv("TAVILY_API_KEY"):
-    st.warning("⚠️ Please set your API keys in the `.env` file:")
+    st.warning("Please set your API keys in the `.env` file:")
     st.code("""
 GOOGLE_API_KEY=your_google_api_key
 TAVILY_API_KEY=your_tavily_api_key
@@ -170,12 +170,12 @@ if start_button and topic:
             
             # Complete
             progress_bar.progress(100)
-            status_text.text("✅ Workflow complete!")
+            status_text.text("Workflow complete!")
             st.session_state.workflow_complete = True
             st.session_state.final_draft = final_state.get("draft_content", "")
             
         except Exception as e:
-            st.error(f"❌ Error during execution: {str(e)}")
+            st.error(f"Error during execution: {str(e)}")
             st.exception(e)
 
 # Display final output
