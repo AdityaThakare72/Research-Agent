@@ -1,8 +1,18 @@
 # Requirements for Agentic Research System
-langgraph>=0.2.0
-langchain>=0.3.0
-langchain-google-genai>=2.0.0
-langchain-community>=0.3.0
+# Tested working versions
+
+# Core orchestration
+langgraph>=1.0.0
+langchain>=1.2.0
+langchain-core>=1.2.0
+
+# LLM providers
+langchain-google-genai>=4.0.0
+langchain-community>=0.4.0
+
+# UI
 streamlit>=1.40.0
-tavily-python>=0.5.0
+
+# Tools & utilities
+tavily-python>=0.7.0
 python-dotenv>=1.0.0
